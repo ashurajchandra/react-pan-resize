@@ -1,0 +1,23 @@
+.App{
+  height: 100%;
+  width: 100%;
+  /* padding: 10px; */
+  overflow: hidden;
+}
+.sidebar-wrapper{
+  display: flex ;
+}
+
+.viewer{
+  background-color: aqua;
+  height: calc(100vh - 4px);
+  border: 2px solid red;
+  width: calc(100% - 4px);
+}
+.slider {
+  width: 10px;
+  cursor: e-resize;
+}
+.slider:hover{
+  background-color:blue ;
+}

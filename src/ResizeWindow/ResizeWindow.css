@@ -1,0 +1,25 @@
+.resizeWindow {
+    display: flex;
+
+
+}
+
+.slider {
+    width: 10px;
+    cursor: e-resize;
+}
+.slider:hover{
+    background-color:brown ;
+}
+
+.slidermid:hover{
+    background-color:brown ;
+}
+
+.sliding{
+    background-color: brown;
+}
+.slidermid {
+    width: 10px;
+    cursor: e-resize;
+}
